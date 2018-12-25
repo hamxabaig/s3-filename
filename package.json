@@ -1,0 +1,36 @@
+{
+	"name": "s3-filename",
+	"version": "1.0.0",
+	"description": "A helper to make your s3 filenames sane.",
+	"license": "MIT",
+	"repository": "hamxabaig/s3-filename",
+	"author": {
+		"name": "Hamza Baig",
+		"email": "hamzabaig18@gmail.com",
+		"url": "http://hamxabaig.github.io"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"s3",
+		"filenames",
+		"s3-filenames",
+		"clean-filename",
+		"filename-cleaner"
+	],
+	"dependencies": {
+		"ow": "^0.8.0",
+		"string": "^3.3.3"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.21.0"
+	}
+}
